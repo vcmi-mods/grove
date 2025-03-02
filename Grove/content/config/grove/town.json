@@ -486,7 +486,7 @@
 				"waterElemental" : 4
 			},
 			"guildWindow" : "grove/town-screen/mage-guild.bmp",
-			"hallBackground" : "TPTHBKFR",
+			"hallBackground" : "grove/town-screen/hallBackground.bmp",
 			"hallSlots" : [
 				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
 				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "shipyard" ] ],
