@@ -10,7 +10,7 @@
 			"biography" : "Said to be a sacred child, Velkyn was blinded during a Dark Ritual. Nowadays he leads a solitary life in the damp tunnels and caves of the world, but is often summoned back to create a concealing veil of darkness.",
 			"specialty" :
 			{
-				"description" : "{Blind}\r\n\r\nCasts Blind with increased effect, based on hero level compared to the level of the target unit.",
+				"description" : "Casts Blind with increased effect, based on hero level compared to the level of the target unit.",
 				"tooltip" : "?",
 				"name" : "Blind"
 			}

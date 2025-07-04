@@ -10,7 +10,7 @@
 			"biography" : "Olath is known for his trade contacts with the nondrow, including Kreegans and Necromancers. He has become more adventurous lately, traveling to the Fiery Fields for unspoken reasons.",
 			"specialty" :
 			{
-				"description" : "{Crystals}\r\n\r\nIncreases kingdom's crystal production by 1 per day.",
+				"description" : "Increases kingdom's crystal production by 1 per day.",
 				"tooltip" : "Specialy bonus: resources",
 				"name" : "+1 Crystal"
 			}

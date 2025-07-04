@@ -10,7 +10,7 @@
 			"biography" : "Being an orphan, Mrimm was raised by druids who put all the children on a strict regimen of chores, study, prayer, and more chores. Today he is at home in the woods under the starry sky, while his lust for freedom has made him the Grove's best scout.",
 			"specialty" :
 			{
-				"description" : "{Logistics}\r\n\r\nReceives a 5% per level bonus to Logistics skill percentage.",
+				"description" : "Receives a 5% per level bonus to Logistics skill percentage.",
 				"tooltip" : "Specialty bonus: Logistics",
 				"name" : "Logistics"
 			}

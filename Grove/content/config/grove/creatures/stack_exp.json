@@ -79,8 +79,8 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.mirth",
-					"addInfo" : 3
+					"subtype" : "spell.mirth"
+//					"addInfo" : 3
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 2, 2 ]	
 			},
@@ -158,8 +158,8 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.mirth",
-					"addInfo" : 3
+					"subtype" : "spell.mirth"
+//					"addInfo" : 3
 				},
 				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 2, 3 ]	
 			},

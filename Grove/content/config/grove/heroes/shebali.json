@@ -10,7 +10,7 @@
 			"biography" : "Dwarves may mine gold from deep underground, but they store it in vaults above ground where Shebali can steal it all at once. Although disowned by her family, she is popular with her guild of Moon Hunters.",
 			"specialty" :
 			{
-				"description" : "{Moon Hunters}\r\n\r\nIncreases the Attack and Defense skills of any Moon Hunters or Moon Slayers for each level attained after 2nd level.",
+				"description" : "Increases the Attack and Defense skills of any Moon Hunters or Moon Slayers for each level attained after 2nd level.",
 				"tooltip" : "Specialty bonus: Moon Hunters",
 				"name" : "Moon Hunters"
 			}

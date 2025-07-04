@@ -10,7 +10,7 @@
 			"biography" : "Artehel is only ent who decided to live among humans. Although forest calls him almost every day, he refuses to come back. On contrary - he wants to bring forest to humans world by summonning mighty Treebeards to serve his cause.",
 			"specialty" :
 			{
-				"description" : "{Treebeards}\r\n\r\nSummons some Treebeards at the beginning of the battle.",
+				"description" : "Summons some Treebeards at the beginning of the battle.",
 				"tooltip" : "Creature bonus: Treebeards",
 				"name" : "Treebeards"
 			}

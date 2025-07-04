@@ -11,10 +11,10 @@
 		"aiValue" : 3915,
 		"special" : true,
 		"attack" : 20,
-             "cost": 
-            {
-              "gold": 2500
-            },
+        "cost": 
+        {
+			"gold": 2500
+		},
 		"damage" :
 		{
 			 "max" : 15,
@@ -48,22 +48,26 @@
 					"upperY" : -93
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-
 			}
 		},
+		"sound" :
+		{
+			"killed": "BALLKILL.wav",
+			"shoot": "BALLSHOT.wav",
+			"wince": "BALLWNCE.wav"
+		},		
 		"doubleWide" : true,
 		"growth" : 0,
 		"hitPoints" : 250,
-                "shots" : 24,
-		
+        "shots" : 24,
 		"speed" : 0,
 		"abilities" :
 		{
-        		"shooter" :
+        	"shooter" :
 			{
 				"type" : "SHOOTER"
 			},
-		      "paralize" :
+		    "paralize" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.paralyze",
@@ -76,8 +80,7 @@
 			},
 		    "noRetaliation" :
 			{
-				"type" : "NO_RETALIATION",
-				 "val" : 0
+				"type" : "NO_RETALIATION"
 			}
 		}
 	}

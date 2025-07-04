@@ -10,7 +10,7 @@
 			"biography" : "Following the path of her foremothers, beautiful but heartless Ssin became the greatest sorceress among the Night Elves. She has learned to walk a fine line between good and evil, but kept her snake-headed whip.",
 			"specialty" :
 			{
-				"description" : "{Sorcery}\r\n\r\nReceives a 5% per level bonus to Sorcery skill percentage.",
+				"description" : "Receives a 5% per level bonus to Sorcery skill percentage.",
 				"tooltip" : "Scpecialty bonus: Sorcery",
 				"name" : "Sorcery"
 			}

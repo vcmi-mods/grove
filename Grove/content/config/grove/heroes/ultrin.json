@@ -10,7 +10,7 @@
 			"biography" : "During a border war, a small force led by Tazar was able to make a stand at a Tatalian outpost, holding off a force nearly five times their size for days until reinforcements arrived. Ultrin was Tazar's most gifted student.",
 			"specialty" :
 			{
-				"description" : "{Amorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill percentage.",
+				"description" : "Receives a 5% per level bonus to Armorer skill percentage.",
 				"tooltip" : "Specialty bonus: Armorer",
 				"name" : "Armorer"
 			}

@@ -3,10 +3,10 @@
 	"description" : "New town made by New Grove Team & Trith",
 	"author" : "New Grove Team & Trith, mod : Kuririn & Pointer, fixes: avatar, Alyx182008",
 	"contact" : "http://www.grovetown.acidcave.net/indexen.htm",
-	"version" : "1.33",
+	"version" : "1.34",
 	"compatibility" :
 	{
-		"min" : "1.6.0"
+		"min" : "1.7.0"
 	},
 	"modType" : "Town",
 	"chinese" : {
@@ -46,6 +46,8 @@
 	},
 	"changelog" :
 	{
+		
+		"1.34"   : [ "Update to vcmi-1.7 format" ],
 		"1.33"   : [ "Minor fixes" ],
 		"1.32"   : [ "French translation by Fabrice-TIERCELIN" ],
 		"1.31"   : [ "Fix Grail not to produce gold" ],

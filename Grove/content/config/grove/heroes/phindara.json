@@ -10,7 +10,7 @@
 			"biography" : "Phindara, though an Elf, possesses an uncanny resistance to the gaze of a Basilisk, which has allowed her to control these creatures better than anyone else, including legendary Bron.",
 			"specialty" :
 			{
-				"description" : "{Basilisk Riders}\r\n\r\nIncreases the Attack and Defense skills of any Basilisk Riders or Basilisk Champions for each level attained after 5th level.",
+				"description" : "Increases the Attack and Defense skills of any Basilisk Riders or Basilisk Champions for each level attained after 5th level.",
 				"tooltip" : "Specialty bonus: Basilisk Riders",
 				"name" : "Basilisk Riders"
 			}

@@ -44,7 +44,7 @@
 			{
 				"description": "{Summon Treebeard}\r\n\r\nSummons Treebeards to fight on your side during the battle.",
 				"power": 18,
-				"aiValue": 10,
+//				"aiValue": 10,
 				"cost": 30,
 				"range": "X",
 				"targetModifier":{"smart":true},

@@ -10,7 +10,7 @@
 			"biography" : "Though lacking an inherent talent for magic, Wanre possesses a unique bond with the ancient earth creatures that allow him to recover all spell points day by day.",
 			"specialty" :
 			{
-				"description" : "{Shamanism}\r\n\r\nHero recovers all spell points at the start of new day.",
+				"description" : "Hero recovers all spell points at the start of new day.",
 				"tooltip" : "Specialty bonus: Shamanism",
 				"name" : "Shamanism"
 			}
@@ -63,7 +63,8 @@
 			"bonuses" : {
 				"mana" :
 				{
-					"type" : "FULL_MANA_REGENERATION"
+					"type" : "MANA_PERCENTAGE_REGENERATION",
+					"val" : 100
 				}
 			}
 		}

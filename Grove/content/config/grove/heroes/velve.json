@@ -10,7 +10,7 @@
 			"biography" : "Velve is said to be able to incite the anger in his troops, enabling them to strike harder than their peers. His troops will tell you they fight harder because they love their commander.",
 			"specialty" :
 			{
-				"description" : "{Rage}\r\n\r\nAll creatures get +1 to damage.",
+				"description" : "All creatures get +1 to damage.",
 				"tooltip" : "?",
 				"name" : "Rage"
 			}

@@ -10,7 +10,7 @@
 			"biography" : "Malla, with her great constructing experiences, creates great battle machines. Her potential was noticed by the Elder Elm high priests and now dryad is using her talent in the name of grove armedfauna and flora.",
 			"specialty" :
 			{
-				"description" : "{Engineer}\r\n\r\nStart with Night Falcon and Ammo Cart.",
+				"description" : "Start with Night Falcon and Ammo Cart.",
 				"tooltip" : "?",
 				"name" : "Engineer"
 			}

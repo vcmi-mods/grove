@@ -10,7 +10,7 @@
 			"biography" : "The founder and sole ruler of her kingdom, Tuidhana always fights side by side with her troops. She knows how speed is important on the battlefield, so she mastered velocity as one of keys to victory.",
 			"specialty" :
 			{
-				"description" : "{Runner}\r\n\r\nAll units in army get +1 speed.",
+				"description" : "All units in army get +1 speed.",
 				"tooltip" : "Specialty bonus: Runner",
 				"name" : "Runner"
 			}

@@ -11,6 +11,9 @@
 		"aiValue" : 680,
 		"special" : true,
 		"attack" : 5,
+		"cost" : {
+			"gold" : 1500
+		},
 		"damage" :
 		{
 			"max" : 12,

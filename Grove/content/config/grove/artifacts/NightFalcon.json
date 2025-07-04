@@ -1,12 +1,12 @@
 {
 	"nightFalcon":
-        {
-	"type" : ["HERO"],
-	"warMachine":"nightFalcon",
-        "class": "SPECIAL",
-        "value": 3500,
-        "slot":"MACH1",
-        "text":
+    {
+		"type" : ["HERO"],
+		"warMachine":"nightFalcon",
+		"class": "SPECIAL",
+		"value": 3500,
+		"slot":"MACH1",
+		"text":
 		{
 			"name": "Night Falcon",
 			"description": "{Night Falcon}\r\n\r\nThe powerfull kind of Ballista can also paralyze targeted units from the distance.",
@@ -15,7 +15,8 @@
 		"graphics":
 		{
 			"image": "grove/iconsSmall/artifacts/falcon.bmp",
-			"map"  : "grove/map/artifacts/avcnbksm.def"
+			"map"  : "grove/map/artifacts/avcnbksm.def",
+			"scenarioBonus" : "grove/scenarioBonuses/bonusBlank.png"
 		}
 	}
 }

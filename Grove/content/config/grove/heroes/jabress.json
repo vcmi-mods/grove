@@ -9,7 +9,7 @@
 			"biography" : "Jabress spent much of her younger days toying with the dark arts, before realizing that such a path usually leads to self-destruction. Today she is feared because she knows everyone's darkest secrets and isn't afraid to expose them.",
 			"specialty" :
 			{
-				"description" : "{Weakness}\r\n\r\nCasts Weakness with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units.)",
+				"description" : "Casts Weakness with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units.)",
 				"tooltip" : "",
 				"name" : "Weakness"
 			}

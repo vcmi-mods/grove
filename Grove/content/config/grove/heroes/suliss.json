@@ -10,7 +10,7 @@
 			"biography" : "Matron mother of her clan, Suliss is known for her wisdom and is often called to mediate disputes between other clans. However, she turned to witchcraft when it became clear that she would never ascend the throne with ten heirs in front of her.",
 			"specialty" :
 			{
-				"description" : "{Scribe}\r\n\r\nHero knowns all 1st level spells.",
+				"description" : "Hero knowns all 1st level spells.",
 				"tooltip" : "Specialty bonus: Scribe",
 				"name" : "Scribe"
 			}
