@@ -1,49 +1,40 @@
 {
-	"spiderprincess":
-	{
-		"name" :
-		{
+	"spiderprincess" : {
+		"name" : {
 			"plural" : "Spider Princesses",
 			"singular" : "Spider Princess"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 12,
-			 "min" : 5
+		"advMapAmount" : {
+			"max" : 12,
+			"min" : 5
 		},
 		"faction" : "grove",
 		"aiValue" : 1381,
 		"attack" : 13,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 720
 		},
-		"damage" :
-		{
-			 "max" : 15,
-			 "min" : 15
+		"damage" : {
+			"max" : 15,
+			"min" : 15
 		},
 		"defense" : 15,
 		"fightValue" : 1231,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "grove/battle/CR289.DEF",
 			"map" : "grove/map/AVW289.def",
 			"iconSmall" : "grove/iconsSmall/CPRS289G.bmp",
 			"iconLarge" : "grove/iconsBig/CPrL289G.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "grove/battle/projectile/shot283.def",
 				"attackClimaxFrame" : 8,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 38,
 					"upperY" : -65,
 					"middleX" : 36,
@@ -51,7 +42,20 @@
 					"lowerX" : 21,
 					"lowerY" : -50
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 		"doubleWide" : true,
@@ -59,12 +63,10 @@
 		"hitPoints" : 65,
 		"level" : 6,
 		"shots" : 12,
-		"upgrades":
-		[
+		"upgrades" : [
 			"spiderqueen"
 		],
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "grove/spider/spidattk.wav",
 			"defend" : "grove/spider/spiddfnd.wav",
 			"killed" : "grove/spider/spidkill.wav",
@@ -73,21 +75,17 @@
 			"shoot" : "grove/spider/spidshot.wav"
 		},
 		"speed" : 7,
-		"abilities" :
-		{
-			"canShoot" :
-			{
+		"abilities" : {
+			"canShoot" : {
 				"type" : "SHOOTER"
 			},
-			"castsDispelHelpful" :
-			{
+			"castsDispelHelpful" : {
 				"type" : "ENCHANTER",
 				"subtype" : "dispelHelpful",
 				"val" : 1, //basic level
 				"addInfo" : 5 //cooldown turns
 			},
-			"casts" :
-			{
+			"casts" : {
 				"type" : "CASTS",
 				"val" : 5
 			}

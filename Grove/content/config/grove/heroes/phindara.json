@@ -1,31 +1,26 @@
 {
-	"05phindara" :
-	{
+	"05phindara" : {
 		"class" : "hunter",
 		"female" : true,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Phindara",
 			"biography" : "Phindara, though an Elf, possesses an uncanny resistance to the gaze of a Basilisk, which has allowed her to control these creatures better than anyone else, including legendary Bron.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Basilisk Riders or Basilisk Champions for each level attained after 5th level.",
 				"tooltip" : "Specialty bonus: Basilisk Riders",
 				"name" : "Basilisk Riders"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "grove/heroes/phindara/un32bsrd.bmp",
 			"specialtyLarge" : "grove/heroes/phindara/un44bsrd.bmp",
 			"large" : "grove/heroes/phindara/hpl288.bmp",
 			"small" : "grove/heroes/phindara/hps288.bmp"
 		},
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "faun",
 				"max" : 20,
@@ -43,8 +38,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "scouting"
@@ -56,6 +50,6 @@
 		],
 		"specialty" : {
 			"creature" : "basiliskrider"
-		}		
+		}
 	}
 }

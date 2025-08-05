@@ -1,31 +1,26 @@
 {
-	"06malla" :
-	{
+	"06malla" : {
 		"class" : "hunter",
 		"female" : true,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Malla",
 			"biography" : "Malla, with her great constructing experiences, creates great battle machines. Her potential was noticed by the Elder Elm high priests and now dryad is using her talent in the name of grove armedfauna and flora.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Start with Night Falcon and Ammo Cart.",
 				"tooltip" : "?",
 				"name" : "Engineer"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "grove/heroes/malla/un32Engi.bmp",
 			"specialtyLarge" : "grove/heroes/malla/un44Engi.bmp",
 			"large" : "grove/heroes/malla/hpl289.bmp",
 			"small" : "grove/heroes/malla/hps289.bmp"
 		},
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "nightFalcon",
 				"max" : 1,
@@ -42,9 +37,8 @@
 				"min" : 10
 			}
 		],
-		
-		"skills" :
-		[
+
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "archery"
@@ -56,11 +50,10 @@
 			{
 				"level" : "basic",
 				"skill" : "artillery"
-			}		
+			}
 		],
-			
-		"specialty": //ballista
-		{
-		}
+
+		//ballista
+		"specialty" : {}
 	}
 }

@@ -1,37 +1,31 @@
 {
-	"13velkyn" :
-	{
+	"13velkyn" : {
 		"class" : "warden",
 		"female" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Velkyn",
 			"biography" : "Said to be a sacred child, Velkyn was blinded during a Dark Ritual. Nowadays he leads a solitary life in the damp tunnels and caves of the world, but is often summoned back to create a concealing veil of darkness.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Casts Blind with increased effect, based on hero level compared to the level of the target unit.",
 				"tooltip" : "?",
 				"name" : "Blind"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "grove/heroes/velkyn/UN32Blnd.bmp",
 			"specialtyLarge" : "grove/heroes/velkyn/UN44Blnd.bmp",
 			"large" : "grove/heroes/velkyn/hpl296.bmp",
 			"small" : "grove/heroes/velkyn/hps296.bmp"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"haste",
-			"blind" 
+			"blind"
 		],
-		
-		"army" :
-		[
+
+		"army" : [
 			{
 				"creature" : "faun",
 				"max" : 20,
@@ -48,8 +42,7 @@
 				"min" : 2
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -71,5 +64,3 @@
 		}
 	}
 }
-
-

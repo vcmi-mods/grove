@@ -1,31 +1,26 @@
 {
-	"07sithyrr" :
-	{
+	"07sithyrr" : {
 		"class" : "hunter",
 		"female" : true,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Sithyrr",
 			"biography" : "As the forest guardians, the Night Elves do not craft Ballistas themselves and prefer to capture war machines in combat against human castles along the border. Sithyrr has become the Grove's leading expert in its deployment.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increses the Attack and Defense skill of any Ballista for each level attained after 4th level.",
 				"tooltip" : "Specialty bonus: Ballista",
 				"name" : "Ballista"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "grove/heroes/sithyrr/un32ball.bmp",
 			"specialtyLarge" : "grove/heroes/sithyrr/un44ball.bmp",
 			"large" : "grove/heroes/sithyrr/hpl290.bmp",
 			"small" : "grove/heroes/sithyrr/hps290.bmp"
 		},
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "faun",
 				"max" : 20,
@@ -43,8 +38,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "archery"
@@ -54,7 +48,7 @@
 				"skill" : "artillery"
 			}
 		],
-		
+
 		"specialty" : {
 			"creature" : "ballista"
 		}

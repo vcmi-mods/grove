@@ -1,90 +1,88 @@
 {
-	"hunter" :
-	{
+	"hunter" : {
 		"name" : "Hunter",
 		"commander" : "nightstalker",
-		"animation" :
-		{
-			"battle" : 
-			{
+		"animation" : {
+			"battle" : {
 				"female" : "grove/heroes/battleHeroHunter",
-				"male"   : "grove/heroes/battleHeroHunter"
+				"male" : "grove/heroes/battleHeroHunter"
 			}
 		},
 
-		"mapObject" : { "templates" : { "default" : { "animation" : "grove/heroes/mapHeroHunter" } } },
-		
+		"mapObject" : {
+			"templates" : {
+				"default" : {
+					"animation" : "grove/heroes/mapHeroHunter"
+				}
+			}
+		},
+
 		"affinity" : "might",
-		
+
 		"faction" : "grove",
 
-		"primarySkills" :
-		{
-			"attack"     : 0,
-			"defence"    : 4,
+		"primarySkills" : {
+			"attack" : 0,
+			"defence" : 4,
 			"spellpower" : 1,
-			"knowledge"  : 1
+			"knowledge" : 1
 		},
-		"lowLevelChance" :
-		{
-			"attack"     : 30,
-			"defence"    : 50,
+		"lowLevelChance" : {
+			"attack" : 30,
+			"defence" : 50,
 			"spellpower" : 10,
-			"knowledge"  : 10
+			"knowledge" : 10
 		},
-		"highLevelChance" :
-		{
-			"attack"     : 30,
-			"defence"    : 30,
+		"highLevelChance" : {
+			"attack" : 30,
+			"defence" : 30,
 			"spellpower" : 20,
-			"knowledge"  : 20
+			"knowledge" : 20
 		},
-		"secondarySkills" :
-		{
-			"pathfinding"  : 8,
-			"archery"      : 7,
-			"logistics"    : 8,
-			"scouting"     : 7,
-			"diplomacy"    : 1,
-			"navigation"   : 8,
-			"leadership"   : 5,
-			"wisdom"       : 2,
-			"mysticism"    : 2,
-			"luck"         : 2,
-			"ballistics"   : 7,
-			"eagleEye"     : 1,
-			"necromancy"   : 0,
-			"estates"      : 1,
-			"fireMagic"    : 0,
-			"airMagic"     : 1,
-			"waterMagic"   : 2,
-			"earthMagic"   : 3,
-			"scholar"      : 1,
-			"tactics"      : 6,
-			"artillery"    : 8,
-			"learning"     : 4,
-			"offence"      : 5,
-			"armorer"      : 10,
+		"secondarySkills" : {
+			"pathfinding" : 8,
+			"archery" : 7,
+			"logistics" : 8,
+			"scouting" : 7,
+			"diplomacy" : 1,
+			"navigation" : 8,
+			"leadership" : 5,
+			"wisdom" : 2,
+			"mysticism" : 2,
+			"luck" : 2,
+			"ballistics" : 7,
+			"eagleEye" : 1,
+			"necromancy" : 0,
+			"estates" : 1,
+			"fireMagic" : 0,
+			"airMagic" : 1,
+			"waterMagic" : 2,
+			"earthMagic" : 3,
+			"scholar" : 1,
+			"tactics" : 6,
+			"artillery" : 8,
+			"learning" : 4,
+			"offence" : 5,
+			"armorer" : 10,
 			"intelligence" : 1,
-			"sorcery"      : 1,
-			"resistance"   : 5,
-			"firstAid"     : 6
+			"sorcery" : 1,
+			"resistance" : 5,
+			"firstAid" : 6
 		},
-		
+
 		"defaultTavern" : 5,
-		
-		"tavern" :
-		{
-			"castle"     : 5,
-			"rampart"    : 5,
-			"tower"      : 5,
-			"inferno"    : 4,
+
+		"tavern" : {
+			"castle" : 5,
+			"rampart" : 5,
+			"tower" : 5,
+			"inferno" : 4,
 			"necropolis" : 4,
-			"dungeon"    : 4,
+			"dungeon" : 4,
 			"stronghold" : 6,
-			"fortress"   : 6,
-			"conflux"    : 6,
-			"grove"      : 8
+			"fortress" : 6,
+			"conflux" : 6,
+			"grove" : 8
 		}
 	}
 }

@@ -1,45 +1,37 @@
 {
-	"nightFalcon":
-	{
-		"name" :
-		{
+	"nightFalcon" : {
+		"name" : {
 			"plural" : "Night Falcons",
 			"singular" : "Night Falcon"
 		},
 		"faction" : "grove",
-		"level": 0,
+		"level" : 0,
 		"aiValue" : 3915,
 		"special" : true,
 		"attack" : 20,
-        "cost": 
-        {
-			"gold": 2500
+		"cost" : {
+			"gold" : 2500
 		},
-		"damage" :
-		{
-			 "max" : 15,
-			 "min" : 10
+		"damage" : {
+			"max" : 15,
+			"min" : 10
 		},
 		"defense" : 10,
 		"fightValue" : 3052,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "grove/battle/falcon.def",
 			"iconLarge" : "grove/iconsBig/falcon-big.png",
 			"iconSmall" : "grove/iconsSmall/falcon.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "grove/battle/projectile/ballsho.def",
 				"attackClimaxFrame" : 4,
-				"offset" :
-				{
+				"offset" : {
 					"lowerX" : 62,
 					"lowerY" : -93,
 					"middleX" : 62,
@@ -47,39 +39,49 @@
 					"upperX" : 62,
 					"upperY" : -93
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
-		"sound" :
-		{
-			"killed": "BALLKILL.wav",
-			"shoot": "BALLSHOT.wav",
-			"wince": "BALLWNCE.wav"
-		},		
+		"sound" : {
+			"killed" : "BALLKILL.wav",
+			"shoot" : "BALLSHOT.wav",
+			"wince" : "BALLWNCE.wav"
+		},
 		"doubleWide" : true,
 		"growth" : 0,
 		"hitPoints" : 250,
-        "shots" : 24,
+		"shots" : 24,
 		"speed" : 0,
-		"abilities" :
-		{
-        	"shooter" :
-			{
+		"abilities" : {
+			"shooter" : {
 				"type" : "SHOOTER"
 			},
-		    "paralize" :
-			{
+			"paralize" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "paralyze",
 				"val" : 20,
-				"addInfo" : [3, 1]
+				"addInfo" : [
+					3,
+					1
+				]
 			},
-			"warmachine" :
-			{
+			"warmachine" : {
 				"type" : "SIEGE_WEAPON"
 			},
-		    "noRetaliation" :
-			{
+			"noRetaliation" : {
 				"type" : "NO_RETALIATION"
 			}
 		}

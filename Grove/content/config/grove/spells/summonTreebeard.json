@@ -1,77 +1,64 @@
 {
-	"summonTreebeard":
-	{
-		"type": "combat", 
-		"targetType": "NO_TARGET", 
-		"name": "Summon Treebeard",
-		"school":
-		{
-			"air": false,
-			"earth": true,
-			"fire": false,
-			"water": false
+	"summonTreebeard" : {
+		"type" : "combat",
+		"targetType" : "NO_TARGET",
+		"name" : "Summon Treebeard",
+		"school" : {
+			"air" : false,
+			"earth" : true,
+			"fire" : false,
+			"water" : false
 		},
-		"level": 5,
-		"power": 1,		
-		"defaultGainChance": 2,
-		"gainChance":
-		{
+		"level" : 5,
+		"power" : 1,
+		"defaultGainChance" : 2,
+		"gainChance" : {
 			"grove" : 8,
 			"fortress" : 5,
 			"rampart" : 4
-		},		
-		"flags" : 
-		{
-			"indifferent": true
-        }, 
-		"graphics":
-		{
-			"iconBook": "grove/spells/summonTreabeard-iconbook",
-			"iconScroll": "grove/spells/summonTreabeard-iconscroll",
-			"iconScenarioBonus": "grove/spells/summonTreabeard-iconscenario",
-			"iconEffect": "grove/spells/summonTreabeard-iconeffect"
 		},
-		"animation":
-		{
+		"flags" : {
+			"indifferent" : true
 		},
-		"sounds":
-		{
-			"cast": "SUMNELM"
+		"graphics" : {
+			"iconBook" : "grove/spells/summonTreabeard-iconbook",
+			"iconScroll" : "grove/spells/summonTreabeard-iconscroll",
+			"iconScenarioBonus" : "grove/spells/summonTreabeard-iconscenario",
+			"iconEffect" : "grove/spells/summonTreabeard-iconeffect"
 		},
-		"levels":
-	    {
-			"base":
-			{
-				"description": "{Summon Treebeard}\r\n\r\nSummons Treebeards to fight on your side during the battle.",
-				"power": 18,
-//				"aiValue": 10,
-				"cost": 30,
-				"range": "X",
-				"targetModifier":{"smart":true},
-				"battleEffects":{
-					"summon":{
-						"exclusive":true,
-						"id":"grove:treebeard",
-						"permanent":false,
+		"animation" : {},
+		"sounds" : {
+			"cast" : "SUMNELM"
+		},
+		"levels" : {
+			"base" : {
+				"description" : "{Summon Treebeard}\r\n\r\nSummons Treebeards to fight on your side during the battle.",
+				"power" : 18,
+				//				"aiValue": 10,
+				"cost" : 30,
+				"range" : "X",
+				"targetModifier" : {
+					"smart" : true
+				},
+				"battleEffects" : {
+					"summon" : {
+						"exclusive" : true,
+						"id" : "grove:treebeard",
+						"permanent" : false,
 						"summonByHealth" : true,
-						"type":"core:summon"
+						"type" : "core:summon"
 					}
-				}				
-			},		
-			"none":
-			{
+				}
 			},
-			"basic":
-			{
-				"power": 18
+			"none" : {},
+			"basic" : {
+				"power" : 18
 			},
-			"advanced":
-			{
-				"power": 36
+			"advanced" : {
+				"power" : 36
 			},
-			"expert":
-			{
-				"power": 54
+			"expert" : {
+				"power" : 54
 			}
 		}
 	}

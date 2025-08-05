@@ -1,24 +1,21 @@
 {
-	"nightFalcon":
-    {
-		"type" : ["HERO"],
-		"warMachine":"nightFalcon",
-		"class": "SPECIAL",
-		"value": 3500,
-		"slot":"MACH1",
-		"text":
-		{
-			"name": "Night Falcon",
-			"description": "{Night Falcon}\r\n\r\nThe powerfull kind of Ballista can also paralyze targeted units from the distance.",
-			"event": "Breaking through the swamps and thickets, you do not expect to come across an abandoned siege machine. You look around if there is anyone around and you hire it to join the army."
+	"nightFalcon" : {
+		"type" : [
+			"HERO"
+		],
+		"warMachine" : "nightFalcon",
+		"class" : "SPECIAL",
+		"value" : 3500,
+		"slot" : "MACH1",
+		"text" : {
+			"name" : "Night Falcon",
+			"description" : "{Night Falcon}\r\n\r\nThe powerfull kind of Ballista can also paralyze targeted units from the distance.",
+			"event" : "Breaking through the swamps and thickets, you do not expect to come across an abandoned siege machine. You look around if there is anyone around and you hire it to join the army."
 		},
-		"graphics":
-		{
-			"image": "grove/iconsSmall/artifacts/falcon.bmp",
-			"map"  : "grove/map/artifacts/avcnbksm.def",
+		"graphics" : {
+			"image" : "grove/iconsSmall/artifacts/falcon.bmp",
+			"map" : "grove/map/artifacts/avcnbksm.def",
 			"scenarioBonus" : "grove/scenarioBonuses/bonusBlank.png"
 		}
 	}
 }
-
-

@@ -1,31 +1,26 @@
 {
-	"04ultrin" :
-	{
+	"04ultrin" : {
 		"class" : "hunter",
 		"female" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Ultrin",
 			"biography" : "During a border war, a small force led by Tazar was able to make a stand at a Tatalian outpost, holding off a force nearly five times their size for days until reinforcements arrived. Ultrin was Tazar's most gifted student.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Armorer skill percentage.",
 				"tooltip" : "Specialty bonus: Armorer",
 				"name" : "Armorer"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "grove/heroes/ultrin/Un32Defe.bmp",
 			"specialtyLarge" : "grove/heroes/ultrin/Un44Defe.bmp",
 			"large" : "grove/heroes/ultrin/hpl287.bmp",
 			"small" : "grove/heroes/ultrin/hps287.bmp"
 		},
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "faun",
 				"max" : 20,
@@ -43,8 +38,7 @@
 			}
 		],
 
-		"skills" : 
-		[
+		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "armorer"

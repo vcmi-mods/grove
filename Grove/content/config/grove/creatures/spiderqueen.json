@@ -1,49 +1,40 @@
 {
-	"spiderqueen":
-	{
-		"name" :
-		{
+	"spiderqueen" : {
+		"name" : {
 			"plural" : "Spider Queens",
 			"singular" : "Spider Queen"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 10,
-			 "min" : 5
+		"advMapAmount" : {
+			"max" : 10,
+			"min" : 5
 		},
 		"faction" : "grove",
 		"aiValue" : 1642,
 		"attack" : 13,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 820
 		},
-		"damage" :
-		{
-			 "max" : 20,
-			 "min" : 20
+		"damage" : {
+			"max" : 20,
+			"min" : 20
 		},
 		"defense" : 16,
 		"fightValue" : 1464,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "grove/battle/CR290.DEF",
 			"map" : "grove/map/AVW290.def",
 			"iconSmall" : "grove/iconsSmall/CPRS290G.bmp",
 			"iconLarge" : "grove/iconsBig/CPrL290G.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "grove/battle/projectile/shot283.def",
 				"attackClimaxFrame" : 8,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 38,
 					"upperY" : -65,
 					"middleX" : 36,
@@ -51,7 +42,20 @@
 					"lowerX" : 21,
 					"lowerY" : -50
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 		"doubleWide" : true,
@@ -59,8 +63,7 @@
 		"hitPoints" : 65,
 		"level" : 6,
 		"shots" : 24,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "grove/spider/spidattk.wav",
 			"defend" : "grove/spider/spiddfnd.wav",
 			"killed" : "grove/spider/spidkill.wav",
@@ -69,28 +72,26 @@
 			"shoot" : "grove/spider/spidshot.wav"
 		},
 		"speed" : 8,
-		"abilities" :
-		{
-			"canShoot" :
-			{
+		"abilities" : {
+			"canShoot" : {
 				"type" : "SHOOTER"
 			},
-			"castsDispelHelpful" :
-			{
+			"castsDispelHelpful" : {
 				"type" : "ENCHANTER",
 				"subtype" : "dispelHelpful",
 				"val" : 1, //basic level
 				"addInfo" : 3 //cooldown turns
 			},
-			"spellPoison" :
-			{
+			"spellPoison" : {
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "poison", 
+				"subtype" : "poison",
 				"val" : 50,
-				"addInfo" : [2, 1] //advanced, only when shooting
+				"addInfo" : [
+					2,
+					1
+				] //advanced, only when shooting
 			},
-			"casts" :
-			{
+			"casts" : {
 				"type" : "CASTS",
 				"val" : 5
 			}

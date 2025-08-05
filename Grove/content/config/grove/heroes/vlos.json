@@ -1,36 +1,30 @@
 {
-	"12vlos" :
-	{
+	"12vlos" : {
 		"class" : "warden",
 		"female" : true,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Vlos",
 			"biography" : "Vlos nearly perished in a raid into her sylvan homeland by the Humans. Fortunately she is a master of the healing arts, and was able to heal the near-fatal wounds she received in that battle. Her sojourn on the other side has changed her, though.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to First Aid skill.",
 				"tooltip" : "?",
 				"name" : "First Aid"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "grove/heroes/vlos/un32firs.bmp",
 			"specialtyLarge" : "grove/heroes/vlos/un44firs.bmp",
 			"large" : "grove/heroes/vlos/hpl295.bmp",
 			"small" : "grove/heroes/vlos/hps295.bmp"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"slow"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "faun",
 				"max" : 20,
@@ -48,8 +42,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -59,7 +52,7 @@
 				"skill" : "firstAid"
 			}
 		],
-		
+
 		"specialty" : {
 			"secondary" : "firstAid"
 		}

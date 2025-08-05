@@ -1,30 +1,25 @@
 {
-	"01kyorlin" :
-	{
+	"01kyorlin" : {
 		"class" : "hunter",
 		"female" : true,
-		
-		"texts" :
-		{
+
+		"texts" : {
 			"name" : "Kyorlin",
 			"biography" : "Kyorlin is the only woman admitted into the Inner Circle of the Night Druids. Although she has many admirers among the brethren, the shapeshifter has refused all proposals in order to devote all her time to find peace of mind. Strangely, she hasn't found it yet.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Night Druids or Elder Druids she commands for each level attainded after 4th level.",
 				"tooltip" : "Specialty bonus: Night Druids",
 				"name" : "Night Druids"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "grove/heroes/kyorlin/un32drud.bmp",
 			"specialtyLarge" : "grove/heroes/kyorlin/un44drud.bmp",
 			"large" : "grove/heroes/kyorlin/hpl284.bmp",
 			"small" : "grove/heroes/kyorlin/hps284.bmp"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "faun",
 				"max" : 20,
@@ -42,8 +37,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "leadership"
@@ -55,6 +49,6 @@
 		],
 		"specialty" : {
 			"creature" : "nightdruid"
-		}		
+		}
 	}
 }

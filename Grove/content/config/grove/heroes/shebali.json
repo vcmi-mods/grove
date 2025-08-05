@@ -1,31 +1,26 @@
 {
-	"03shebali" :
-	{
+	"03shebali" : {
 		"class" : "hunter",
 		"female" : true,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Shebali",
 			"biography" : "Dwarves may mine gold from deep underground, but they store it in vaults above ground where Shebali can steal it all at once. Although disowned by her family, she is popular with her guild of Moon Hunters.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of any Moon Hunters or Moon Slayers for each level attained after 2nd level.",
 				"tooltip" : "Specialty bonus: Moon Hunters",
 				"name" : "Moon Hunters"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "grove/heroes/shebali/un32hunt.bmp",
 			"specialtyLarge" : "grove/heroes/shebali/un44hunt.bmp",
 			"large" : "grove/heroes/shebali/hpl286.bmp",
 			"small" : "grove/heroes/shebali/hps286.bmp"
 		},
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "moonhunter",
 				"max" : 7,
@@ -43,8 +38,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "logistics"
@@ -56,6 +50,6 @@
 		],
 		"specialty" : {
 			"creature" : "moonhunter"
-		}		
+		}
 	}
 }

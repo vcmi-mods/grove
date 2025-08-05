@@ -1,49 +1,40 @@
 {
-	"grovekeeper":
-	{
-		"name" :
-		{
+	"grovekeeper" : {
+		"name" : {
 			"plural" : "Grove Keepers",
 			"singular" : "Grove Keeper"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 20,
-			 "min" : 12
+		"advMapAmount" : {
+			"max" : 20,
+			"min" : 12
 		},
 		"faction" : "grove",
 		"aiValue" : 362,
 		"attack" : 8,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 300
 		},
-		"damage" :
-		{
-			 "max" : 5,
-			 "min" : 3
+		"damage" : {
+			"max" : 5,
+			"min" : 3
 		},
 		"defense" : 8,
 		"fightValue" : 360,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "grove/battle/CR284.def",
 			"map" : "grove/map/AvW284.def",
 			"iconSmall" : "grove/iconsSmall/CPrS284G.bmp",
 			"iconLarge" : "grove/iconsBig/CPrL284G.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "grove/battle/projectile/shot283.def",
 				"attackClimaxFrame" : 7,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 38,
 					"upperY" : -65,
 					"middleX" : 36,
@@ -51,16 +42,28 @@
 					"lowerX" : 21,
 					"lowerY" : -50
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-			}			
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
+			}
 		},
 		"doubleWide" : true,
 		"growth" : 7,
 		"hitPoints" : 22,
 		"level" : 3,
 		"shots" : 24,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "grove/keeper/gkprattk.wav",
 			"defend" : "grove/keeper/gkprdfnd.wav",
 			"killed" : "grove/keeper/gkprkill.wav",
@@ -69,23 +72,22 @@
 			"shoot" : "grove/keeper/gkprshot.wav"
 		},
 		"speed" : 7,
-		"abilities" :
-		{
-			"canShoot" :
-			{
+		"abilities" : {
+			"canShoot" : {
 				"type" : "SHOOTER"
 			},
-			"additionalAttack" :
-			{
+			"additionalAttack" : {
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1
 			},
-			"dispellHelpful" :
-			{
+			"dispellHelpful" : {
 				"type" : "SPELL_BEFORE_ATTACK",
 				"subtype" : "dispelHelpful",
 				"val" : 100,
-				"addInfo" : [1, 1]
+				"addInfo" : [
+					1,
+					1
+				]
 			}
 		}
 	}

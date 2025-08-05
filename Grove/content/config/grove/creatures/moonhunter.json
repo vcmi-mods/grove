@@ -1,49 +1,40 @@
 {
-	"moonhunter":
-	{
-		"name" :
-		{
+	"moonhunter" : {
+		"name" : {
 			"plural" : "Moon Hunters",
 			"singular" : "Moon Hunter"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 30,
-			 "min" : 16
+		"advMapAmount" : {
+			"max" : 30,
+			"min" : 16
 		},
 		"faction" : "grove",
 		"aiValue" : 221,
 		"attack" : 7,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 120
 		},
-		"damage" :
-		{
-			 "max" : 4,
-			 "min" : 2
+		"damage" : {
+			"max" : 4,
+			"min" : 2
 		},
 		"defense" : 4,
 		"fightValue" : 229,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "grove/battle/CR281.def",
 			"map" : "grove/map/avw281.def",
 			"iconSmall" : "grove/iconsSmall/CPrS281G.bmp",
 			"iconLarge" : "grove/iconsBig/CPrL281G.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "grove/battle/projectile/shot281.DEF",
 				"attackClimaxFrame" : 7,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 38,
 					"upperY" : -65,
 					"middleX" : 36,
@@ -51,16 +42,30 @@
 					"lowerX" : 21,
 					"lowerY" : -50
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 		"growth" : 7,
 		"hitPoints" : 15,
 		"level" : 2,
-		"upgrades": [ "moonslayer" ],
+		"upgrades" : [
+			"moonslayer"
+		],
 		"shots" : 2,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "grove/hunter/huntattk.wav",
 			"defend" : "grove/hunter/huntdfnd.wav",
 			"killed" : "grove/hunter/huntkill.wav",
@@ -69,18 +74,14 @@
 			"shoot" : "grove/hunter/huntshot.wav"
 		},
 		"speed" : 7,
-		"abilities" :
-		{
-			"canShoot" :
-			{
+		"abilities" : {
+			"canShoot" : {
 				"type" : "SHOOTER"
 			},
-			"noMeleePenalty" :
-			{
+			"noMeleePenalty" : {
 				"type" : "NO_MELEE_PENALTY"
 			},
-			"devenseStance" :
-			{
+			"devenseStance" : {
 				"type" : "GENERAL_ATTACK_REDUCTION",
 				"val" : 10
 			}

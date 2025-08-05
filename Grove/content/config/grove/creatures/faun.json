@@ -1,77 +1,65 @@
 {
-	"armedfaun":
-	{
-		"name" :
-		{
+	"armedfaun" : {
+		"name" : {
 			"plural" : "Armed Fauns",
 			"singular" : "Armed Faun"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 30,
-			 "min" : 20
+		"advMapAmount" : {
+			"max" : 30,
+			"min" : 20
 		},
 		"faction" : "grove",
 		"aiValue" : 121,
 		"attack" : 3,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 70
 		},
-		"damage" :
-		{
-			 "max" : 3,
-			 "min" : 1
+		"damage" : {
+			"max" : 3,
+			"min" : 1
 		},
 		"defense" : 7,
 		"fightValue" : 130,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "grove/battle/CR280.def",
 			"map" : "grove/map/AVW280.def",
 			"iconSmall" : "grove/iconsSmall/CPrS280G.bmp",
 			"iconLarge" : "grove/iconsBig/CPrL280G.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
 		"growth" : 12,
 		"hitPoints" : 10,
 		"horde" : 6,
-                "level" : 1,
-		"sound" :
-		{
+		"level" : 1,
+		"sound" : {
 			"attack" : "grove/faun/satrattk.wav",
 			"defend" : "grove/faun/satrdfnd.wav",
 			"killed" : "grove/faun/satrkill.wav",
-			"move" :  "grove/faun/satrmove.wav",
+			"move" : "grove/faun/satrmove.wav",
 			"wince" : "grove/faun/satrwnce.wav"
-        },
+		},
 		"speed" : 5,
-		"abilities" :
-		{
-			"hatePixie" :
-			{
+		"abilities" : {
+			"hatePixie" : {
 				"type" : "HATE",
 				"subtype" : "pixie",
 				"val" : 50
 			},
-			"hateSprite" :
-			{
+			"hateSprite" : {
 				"type" : "HATE",
 				"subtype" : "sprite",
 				"val" : 50
 			},
-			"spellMirth" :
-			{
+			"spellMirth" : {
 				"type" : "ENCHANTED",
 				"subtype" : "mirth",
 				"val" : 1
-//				"addInfo" : 3 
+				//				"addInfo" : 3
 			}
 		}
 	}
