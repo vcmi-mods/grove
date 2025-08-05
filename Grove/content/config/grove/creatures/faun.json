@@ -57,19 +57,19 @@
 			"hatePixie" :
 			{
 				"type" : "HATE",
-				"subtype" : "creature.pixie",
+				"subtype" : "pixie",
 				"val" : 50
 			},
 			"hateSprite" :
 			{
 				"type" : "HATE",
-				"subtype" : "creature.sprite",
+				"subtype" : "sprite",
 				"val" : 50
 			},
 			"spellMirth" :
 			{
 				"type" : "ENCHANTED",
-				"subtype" : "spell.mirth",
+				"subtype" : "mirth",
 				"val" : 1
 //				"addInfo" : 3 
 			}

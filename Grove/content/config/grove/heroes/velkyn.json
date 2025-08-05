@@ -62,7 +62,7 @@
 		"specialty" : {
 			"bonuses" : {
 				"blind" : {
-					"subtype" : "spell.blind",
+					"subtype" : "blind",
 					"type" : "SPECIAL_SPELL_LEV",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 3

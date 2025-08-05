@@ -47,7 +47,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.pixie"
+					"subtype" : "pixie"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
@@ -55,7 +55,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.sprite"
+					"subtype" : "sprite"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
@@ -63,7 +63,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.dwarf"
+					"subtype" : "dwarf"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
@@ -71,7 +71,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.battleDwarf"
+					"subtype" : "battleDwarf"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
@@ -142,7 +142,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.pixie"
+					"subtype" : "pixie"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
@@ -150,7 +150,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.sprite"
+					"subtype" : "sprite"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
@@ -158,7 +158,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.mirth"
+					"subtype" : "mirth"
 //					"addInfo" : 3
 				},
 				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 2, 3 ]	
@@ -221,7 +221,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.woodElf"
+					"subtype" : "woodElf"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
@@ -229,7 +229,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.poison",
+					"subtype" : "poison",
 					"addInfo" : [1, 0]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]				
@@ -306,7 +306,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.woodElf"
+					"subtype" : "woodElf"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
@@ -314,7 +314,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.grandElf"
+					"subtype" : "grandElf"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
@@ -322,7 +322,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.poison",
+					"subtype" : "poison",
 					"addInfo" : [1, 1]
 				},
 				"values" : [ 3, 6, 9, 12, 15, 18, 21, 24, 27, 30 ]				
@@ -374,15 +374,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "creatureDamageMax",
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
-			},
-			{
-				"bonus" :
-				{
-					"subtype" : "creatureDamageMin",
+					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
@@ -413,7 +405,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.centaur"
+					"subtype" : "centaur"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},	
@@ -450,15 +442,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "creatureDamageMax",
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
-			},
-			{
-				"bonus" :
-				{
-					"subtype" : "creatureDamageMin",
+					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
@@ -482,7 +466,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.shield", 
+					"subtype" : "shield", 
 				},
 				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1 ]			
 			},
@@ -490,7 +474,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.centaur"
+					"subtype" : "centaur"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},	
@@ -498,7 +482,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.centaurCaptain"
+					"subtype" : "centaurCaptain"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
@@ -567,7 +551,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_IMMUNITY", 
-					"subtype" : "spell.dispelHelpful", 
+					"subtype" : "dispelHelpful", 
 				},
 				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1 ]			
 			},
@@ -575,7 +559,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.stoneGaze",
+					"subtype" : "stoneGaze",
 					"addInfo" : [1,2]
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
@@ -645,7 +629,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_IMMUNITY", 
-					"subtype" : "spell.dispelHelpful"
+					"subtype" : "dispelHelpful"
 				},
 				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1 ]			
 			},
@@ -653,7 +637,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.stoneGaze",
+					"subtype" : "stoneGaze",
 					"addInfo" : [1, 2]
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]			
@@ -662,7 +646,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.bloodlust", 
+					"subtype" : "bloodlust", 
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 2, 3 ]			
 			},
@@ -738,7 +722,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.pegasus"
+					"subtype" : "pegasus"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
@@ -822,7 +806,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.pegasus"
+					"subtype" : "pegasus"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
@@ -830,7 +814,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.silverPegasus"
+					"subtype" : "silverPegasus"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
@@ -892,7 +876,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.poison", 
+					"subtype" : "poison", 
 					"addInfo" : [2, 0]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 35, 45, 55, 65, 75 ]			
@@ -901,7 +885,7 @@
 				"bonus" :
 				{
 					"type" :  "ENCHANTER",
-					"subtype" : "spell.dispelHelpful",
+					"subtype" : "dispelHelpful",
 					"addInfo" : 3
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 0, 1, 1, 1]			
@@ -910,7 +894,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.masterGenie"
+					"subtype" : "masterGenie"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
@@ -979,7 +963,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.poison",
+					"subtype" : "poison",
 					"addInfo" : [1,1]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
@@ -988,7 +972,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTER",
-					"subtype" : "spell.dispelHelpful", 
+					"subtype" : "dispelHelpful", 
 					"addInfo" : 3
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 1, 1, 1, 1 ]	
@@ -997,7 +981,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.masterGenie"
+					"subtype" : "masterGenie"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
@@ -1005,7 +989,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.naga"
+					"subtype" : "naga"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
@@ -1049,15 +1033,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "creatureDamageMax",
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},
-			{
-				"bonus" :
-				{
-					"subtype" : "creatureDamageMin",
+					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
@@ -1088,7 +1064,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_DAMAGE_REDUCTION",
-					"subtype" : "spellSchool.any"
+					"subtype" : "any"
 				},
 				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]
 			},
@@ -1132,15 +1108,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "creatureDamageMax",
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},
-			{
-				"bonus" :
-				{
-					"subtype" : "creatureDamageMin",
+					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
@@ -1171,7 +1139,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_DAMAGE_REDUCTION",
-					"subtype" : "spellSchool.any"
+					"subtype" : "any"
 				},
 				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]
 			},
@@ -1215,15 +1183,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "creatureDamageMax",
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},
-			{
-				"bonus" :
-				{
-					"subtype" : "creatureDamageMin",
+					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
@@ -1254,7 +1214,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_DAMAGE_REDUCTION",
-					"subtype" : "spellSchool.any"
+					"subtype" : "any"
 				},
 				"values" : [ 2, 4, 6, 8, 10, 10, 10, 10, 10, 10 ]
 			},
@@ -1333,7 +1293,7 @@
 				{
 					
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : "spell.paralyze",
+					"subtype" : "paralyze",
 					"addInfo" : [ 1,0]
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
@@ -1357,7 +1317,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.dendroidGuard"
+					"subtype" : "dendroidGuard"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
@@ -1434,7 +1394,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.paralyze",
+					"subtype" : "paralyze",
 					"addInfo" : [3, 1]
 				},
 				"values" : [ 20, 20, 25, 25, 25, 30, 30, 30, 40, 50 ]

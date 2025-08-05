@@ -58,7 +58,7 @@
 			"spellParalyze" :
 			{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : "spell.paralyze",
+					"subtype" : "paralyze",
 					"addInfo" : [1, 0],
 					"val" : 20
 			}

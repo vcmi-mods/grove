@@ -82,7 +82,7 @@
 			"castsDispelHelpful" :
 			{
 				"type" : "ENCHANTER",
-				"subtype" : "spell.dispelHelpful",
+				"subtype" : "dispelHelpful",
 				"val" : 1, //basic level
 				"addInfo" : 5 //cooldown turns
 			},

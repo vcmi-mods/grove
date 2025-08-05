@@ -86,7 +86,7 @@
 			"spellPoison" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.poison",
+				"subtype" : "poison",
 				"val" : 50,
 				"addInfo" : [1, 1]				
 			}

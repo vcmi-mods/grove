@@ -60,12 +60,12 @@
 			{
 				"wood" : {
 					"type": "GENERATE_RESOURCE",
-					"subtype": "resource.wood",
+					"subtype": "wood",
 					"val": 1
 				},
 				"ore" : {
 					"type": "GENERATE_RESOURCE",
-					"subtype": "resource.ore",
+					"subtype": "ore",
 					"val": 1
 				}
 			}

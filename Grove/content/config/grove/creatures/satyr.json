@@ -61,13 +61,13 @@
 			"hatePixie" :
 			{
 				"type" : "HATE",
-				"subtype" : "creature.pixie",
+				"subtype" : "pixie",
 				"val" : 50
 			},
 			"hateSprite" :
 			{
 				"type" : "HATE",
-				"subtype" : "creature.sprite",
+				"subtype" : "sprite",
 				"val" : 50
 			}
 		}

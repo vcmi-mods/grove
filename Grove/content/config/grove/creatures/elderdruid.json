@@ -60,7 +60,7 @@
 			"petrify" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.stoneGaze",
+				"subtype" : "stoneGaze",
 				"val" : 20,
 				"addInfo" : [1, 2]
 			}

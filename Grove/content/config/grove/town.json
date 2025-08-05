@@ -64,99 +64,79 @@
 				"blacksmith" : {
 					"cost" : { "gold" : 1000, "wood" : 5 },
 					"description" : "The Blacksmith provides your armies with First Aid Tents.",
-					"id" : 16,
 					"warMachine" : "nightFalcon",
 					"name" : "Blacksmith"
 				},
 				"capitol" : {
 					"cost" : { "gold" : 10000 },
 					"description" : "The Capitol earns your kingdom 4000 gold per day.",
-					"id" : 13,
-					"name" : "Capitol",
-					"requires" : [ "castle" ],
-					"upgrades" : "cityHall"
+					"name" : "Capitol"
 				},
 				"castle" : {
 					"cost" : { "gold" : 5000, "ore" : 10, "wood" : 10 },
 					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					"id" : 9,
-					"name" : "Castle",
-					"upgrades" : "citadel"
+					"name" : "Castle"
 				},
 				"citadel" : {
 					"cost" : { "gold" : 2500, "ore" : 5 },
 					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"id" : 8,
-					"name" : "Citadel",
-					"upgrades" : "fort"
+					"name" : "Citadel"
 				},
 				"cityHall" : {
 					"cost" : { "gold" : 5000 },
 					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-					"id" : 12,
-					"name" : "City Hall",
-					"requires" : [ "allOf", [ "mageGuild1" ], [ "blacksmith" ], [ "marketplace" ] ],
-					"upgrades" : "townHall"
+					"name" : "City Hall"
 				},
 				"shipyard" : {
 					"cost" : { "gold" : 2000, "wood" : 20 },
 					"description" : "The Shipyard allows you to purchase ships.",
-					"id" : 6,
 					"name" : "Shipyard"
 				},
 				"dwellingLvl1" : {
 					"cost" : { "gold" : 500, "wood"	: 5 },
 					"description" : "The Cedar Halls allow you to recruit Fauns.",
-					"id" : 30,
 					"name" : "Cedar Halls",
 					"requires" : [ "fort" ]
 				},
 				"dwellingLvl2" : {
 					"cost" : { "gold" : 1000, "ore" : 5, "wood" : 5 },
 					"description" : "The Hunters Guild allows you to recruit Moon Hunters.",
-					"id" : 31,
 					"name" : "Hunters Guild",
 					"requires" : [ "fort" ]
 				},
 				"dwellingLvl3" : {
 					"cost" : { "gold" : 1500, "wood" : 5, "crystal" : 1, "sulfur" : 1 },
 					"description" : "The Redwood Spires allow you to recruit Grove Guards.",
-					"id" : 32,
 					"name" : "Redwood Spires",
 					"requires" : [ "dwellingLvl2" ]
 				},
 				"dwellingLvl4" : {
 					"cost" : { "wood" : 10, "gold" : 2000, "gems" : 3 },
 					"description" : "The Cave of Dreams allows you to recruit Night Druids.",
-					"id" : 33,
 					"name" : "Cave of Dreams",
 					"requires" : [ "dwellingLvl3" ]
 				},
 				"dwellingLvl5" : {
 					"cost" : { "crystal" : 4, "gold" : 2500, "ore" : 10 },
 					"description" : "The Witching Hollow allows you to recruit Basilisk Riders.",
-					"id" : 34,
 					"name" : "Witching Hollow",
 					"requires" : [ "allOf", [ "dwellingLvl2" ], [ "dwellingLvl4" ] ]
 				},
 				"dwellingLvl6" : {
 					"cost" : { "gold" : 4000, "mercury" : 5, "wood" : 10 },
 					"description" : "The Royal Chambers allow you to recruit Spider Princesses.",
-					"id" : 35,
 					"name" : "Royal Chambers",
 					"requires" : [ "allOf", [ "dwellingLvl5" ], [ "mageGuild1" ] ]
 				},
 				"dwellingLvl7" : {
 					"cost" : { "gold" : 8500, "ore" : 15, "crystal" : 10 },
 					"description" : "The Quartz Fortress allows you to recruit Quartz Dragons.",
-					"id" : 36,
 					"name" : "Quartz Fortress",
 					"requires" : [ "dwellingLvl6" ]
 				},
 				"dwellingUpLvl1" : {
 					"cost" : { "gold" : 1000, "wood" : 5 },
 					"description" : "The Cedar Halls allows you to recruit Armed Fauns.",
-					"id" : 37,
 					"name" : "Upg. Cedar Halls",
 					"upgrades" : "dwellingLvl1",
 					"requires" : [ "tavern" ]
@@ -164,28 +144,24 @@
 				"dwellingUpLvl2" : {
 					"cost" : { "gold" : 750, "wood" : 5, "ore" : 5 },
 					"description" : "The Hunters Guild allows you to recruit Moon Slayers.",
-					"id" : 38,
 					"name" : "Upg. Hunters Guild",
 					"upgrades" : "dwellingLvl2"
 				},
 				"dwellingUpLvl3" : {
 					"cost" : { "gold" : 1000, "wood" : 5, "crystal" : 2, "sulfur": 2 },
 					"description" : "The Redwood Spires allow you to recruit Grove Keepers.",
-					"id" : 39,
 					"name" : "Upg. Redwood Spires",
 					"upgrades" : "dwellingLvl3"
 				},
 				"dwellingUpLvl4" : {
 					"cost" : { "wood" : 15, "gold" : 2000, "gems" : 5 },
 					"description" : "The Cave of Dreams allows you to recruit Elder Druids.",
-					"id" : 40,
 					"name" : "Upg. Cave of Dreams",
 					"upgrades" : "dwellingLvl4"
 				},
 				"dwellingUpLvl5" : {
 					"cost" : { "crystal" : 5, "gold" : 2000, "ore" : 10 },
 					"description" : "The Witching Hollow allows you to recruit Basilisk Champions.",
-					"id" : 41,
 					"name" : "Upg. Witching Hollow",
 					"requires" : [ "resourceSilo" ],
 					"upgrades" : "dwellingLvl5"
@@ -193,7 +169,6 @@
 				"dwellingUpLvl6" : {
 					"cost" : { "gold" : 3500, "mercury" : 5, "gems" : 5 },
 					"description" : "The Royal Chambers allows you to recruit Spider Queens.",
-					"id" : 42,
 					"name" : "Upg. Royal Chambers",
 					"requires" : [ "mageGuild2" ],
 					"upgrades" : "dwellingLvl6"
@@ -201,7 +176,6 @@
 				"dwellingUpLvl7" : {
 					"cost" : { "gold" : 15000, "ore" : 15, "crystal" : 15 },
 					"description" : "The Amethyst Fortress allows you to recruit Amethyst Dragons.",
-					"id" : 43,
 					"name" : "Amethyst Fortress",
 					"requires" : [ "mageGuild2" ],
 					"upgrades" : "dwellingLvl7"
@@ -209,25 +183,20 @@
 				"fort" : {
 					"cost" : { "gold" : 5000, "ore" : 20, "wood" : 20 },
 					"description" : "The Fort provides your town with defensive walls.",
-					"id" : 7,
 					"name" : "Fort"
 				},
 				"grail" : {
 					"description" : "The presence of the Guardian of Night increases weekly creature generation by 50%, provides your kingdom with an additional 5000 gold each day, increases the Attack and Defense strength of a garrison hero by +10 each when defending against a siege and summons Treebeards (quantity depends on hero spellpower).",
-					"id" : 26,
-					"produce": { "gold": 5000 },
-					"mode" : "grail",
 					"bonuses": [
-						{ "type": "PRIMARY_SKILL", "subtype": "primarySkill.attack", "val": 10 },
-						{ "type": "PRIMARY_SKILL", "subtype": "primarySkill.defence", "val": 10 },
-						{ "type": "OPENING_BATTLE_SPELL", "subtype": "spell.summonTreebeard", "val": 3 }
+						{ "type": "PRIMARY_SKILL", "subtype": "attack", "val": 10 },
+						{ "type": "PRIMARY_SKILL", "subtype": "defence", "val": 10 },
+						{ "type": "OPENING_BATTLE_SPELL", "subtype": "summonTreebeard", "val": 3 }
 					],
 					"name" : "Guardian of Night"
 				},
 				"horde1" : {
 					"cost" : { "gold" : 1000 },
 					"description" : "The Moonwells increase production of Fauns and Armed Fauns by 6 per week.",
-					"id" : 18,
 					"name" : "Moonwells",
 					"requires" : [ "allOf", ["fort"], ["dwellingLvl1"] ],
 					"upgrades" : "dwellingLvl1"
@@ -235,7 +204,6 @@
 				"horde1Upgr" : {
 					"cost" : { "gold" : 1000 },
 					"description" : "The Moonwells increase production of Fauns and Armed Fauns by 6 per week.",
-					"id" : 19,
 					"mode" : "auto",
 					"name" : "Moonwells",
 					"requires" : [ "horde1" ],
@@ -244,7 +212,6 @@
 				"mageGuild1" : {
 					"cost" : { "gold" : 2000, "ore" : 5, "wood" : 5 },
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id" : 0,
 					"name" : "Mage Guild Level 1"
 				},
 				"mageGuild2" : {
@@ -258,9 +225,7 @@
 						"wood" : 5
 					},
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id" : 1,
-					"name" : "Mage Guild Level 2",
-					"upgrades" : "mageGuild1"
+					"name" : "Mage Guild Level 2"
 				},
 				"mageGuild3" : {
 					"cost" : {
@@ -273,9 +238,7 @@
 						"wood" : 5
 					},
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id" : 2,
-					"name" : "Mage Guild Level 3",
-					"upgrades" : "mageGuild2"
+					"name" : "Mage Guild Level 3"
 				},
 				"mageGuild4" : {
 					"cost" : {
@@ -288,9 +251,7 @@
 						"wood" : 5
 					},
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id" : 3,
-					"name" : "Mage Guild Level 4",
-					"upgrades" : "mageGuild3"
+					"name" : "Mage Guild Level 4"
 				},
 				"mageGuild5" : {
 					"cost" : {
@@ -303,30 +264,22 @@
 						"wood" : 5
 					},
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id" : 4,
-					"name" : "Mage Guild Level 5",
-					"upgrades" : "mageGuild4"
+					"name" : "Mage Guild Level 5"
 				},
 				"marketplace" : {
 					"cost" : { "gold" : 500, "wood" : 5 },
 					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"id" : 14,
-					"marketModes" : ["resource-resource", "resource-player"],
-
 					"name" : "Marketplace"
 				},
 				"resourceSilo" : {
 					"cost" : { "gold" : 5000, "ore" : 5 },
 					"description" : "The Resource Silo provides you with an additional +1 crystal each day.",
-					"id" : 15,
 					"produce": { "crystal": 1 },
-					"name" : "Resource Silo",
-					"requires" : [ "marketplace" ]
+					"name" : "Resource Silo"
 				},
 				"ship" : {
 					"cost" : null,
 					"description" : "Shipyard allows ships to be built.",
-					"id" : 20,
 					"name" : "Shipyard",
 					"upgrades" : "shipyard"
 				},
@@ -347,8 +300,7 @@
 							}
 						]
 					},
-					"requires" : [ "allOf", ["tavern"], ["fort"], ["townHall"], ["special2"] ],
-					"id" : 17
+					"requires" : [ "allOf", ["tavern"], ["fort"], ["townHall"], ["special2"] ]
 				},
 				"special2" : {
 					"cost" : 
@@ -357,11 +309,10 @@
 						"gold" : 1000
 					},
 					"description" : "The presence of Wolf Chant adds +2 to a garrison hero's defense skill when defending against a siege.",
-					"id" : 21,
 					"bonuses": [
 						{
 							"type": "PRIMARY_SKILL",
-							"subtype": "primarySkill.defence",
+							"subtype": "defence",
 							"val": 2
 						}
 					],
@@ -371,7 +322,6 @@
 				"special3" : {
 					"cost" : { "gold" : 1000, "wood" : 5 },
 					"description" : "The Pillars of Magic give an additional spells in the mages guild.",
-					"id" : 22,
 					"type" : "library",
 					"name" : "Pillars of Magic",
 					"requires" : [ "mageGuild1" ]
@@ -379,27 +329,20 @@
 				"tavern" : {
 					"cost" : { "gold" : 500, "wood" : 5 },
 					"description" : "The Tavern increases morale for troops defending the city.",
-					"id" : 5,
 					"name" : "Tavern"
 				},
 				"townHall" : {
 					"cost" : { "gold" : 2500 },
 					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"id" : 11,
-					"name" : "Town Hall",
-					"requires" : [ "tavern" ],
-					"upgrades" : "villageHall"
+					"name" : "Town Hall"
 				},
 				"villageHall" : {
 					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					"id" : 10,
-					"mode" : "auto",
 					"name" : "Village Hall"
 				},
 				"dwellingUp2Lvl7" : {
 					"cost" : { "gold" : 20000, "ore" : 20, "crystal" : 20 },
 					"description" : "The Sapphire Fortress allows you to recruit Sapphire Dragons.",
-					"id" : 50,
 					"name" : "Sapphire Fortress",
 					"requires" : [ "mageGuild3" ],
 					"upgrades" : "dwellingUpLvl7"

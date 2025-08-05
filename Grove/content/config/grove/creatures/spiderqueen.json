@@ -78,14 +78,14 @@
 			"castsDispelHelpful" :
 			{
 				"type" : "ENCHANTER",
-				"subtype" : "spell.dispelHelpful",
+				"subtype" : "dispelHelpful",
 				"val" : 1, //basic level
 				"addInfo" : 3 //cooldown turns
 			},
 			"spellPoison" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.poison", 
+				"subtype" : "poison", 
 				"val" : 50,
 				"addInfo" : [2, 1] //advanced, only when shooting
 			},

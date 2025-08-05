@@ -70,7 +70,7 @@
 		    "paralize" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.paralyze",
+				"subtype" : "paralyze",
 				"val" : 20,
 				"addInfo" : [3, 1]
 			},
