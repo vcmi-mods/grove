@@ -22,7 +22,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "grove/map/flagports/grovedw01.def"
 			},
 			"huntersGuild" : {
 				"name" : "Hunters Guild",
@@ -45,7 +46,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "grove/map/flagports/grovedw02.def"
 			},
 			"redwoodSpires" : {
 				"name" : "Redwood Spires",
@@ -68,7 +70,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "grove/map/flagports/grovedw03.def"
 			},
 			"caveOfDreams" : {
 				"name" : "Cave of Dreams",
@@ -91,7 +94,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "grove/map/flagports/grovedw04.def"
 			},
 			"witchingHollow" : {
 				"name" : "Witching Hollow",
@@ -117,7 +121,8 @@
 							"BA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "grove/map/flagports/grovedw05.def"
 			},
 			"royalChambers" : {
 				"name" : "Royal Chambers",
@@ -141,7 +146,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "grove/map/flagports/grovedw06.def"
 			},
 			"sapphireFortress" : {
 				"name" : "Sapphire Fortress",
@@ -165,7 +171,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "grove/map/flagports/grovedw08.def"
 			},
 			"quartzFortress" : {
 				"name" : "Quartz Fortress",
@@ -189,7 +196,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "grove/map/flagports/grovedw07.def"
 			},
 			"primevalPeatbog" : {
 				"name" : "Primeval Peatbog",
@@ -212,7 +220,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "grove/map/flagports/grovedw09.def"
 			}
 		}
 	}

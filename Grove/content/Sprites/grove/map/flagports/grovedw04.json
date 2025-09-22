@@ -1,0 +1,12 @@
+{
+	"basepath" : "grove/map/flagports/",
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "grovedw04"
+		}
+	]
+}
+
+

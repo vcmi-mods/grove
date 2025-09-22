@@ -3,7 +3,7 @@
 	"description" : "New town made by New Grove Team & Trith",
 	"author" : "New Grove Team & Trith, mod : Kuririn & Pointer, fixes: avatar, Alyx182008",
 	"contact" : "http://www.grovetown.acidcave.net/indexen.htm",
-	"version" : "1.35",
+	"version" : "1.36",
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
@@ -44,6 +44,9 @@
 		]
 	},
 	"changelog" : {
+		"1.36" : [
+			"Added flagport frames (Kingdom Overwiev window)"
+		],
 		"1.35" : [
 			"Another update to vcmi-1.7 format"
 		],
