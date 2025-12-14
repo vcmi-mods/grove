@@ -1,0 +1,9 @@
+{
+	"grove:amethystdragon" : {
+		"abilities" : {
+			"magicResistance" : {
+				"icon" : "bonuses/e_retail1_amethystdragon.png"
+			}
+		}
+	}
+}

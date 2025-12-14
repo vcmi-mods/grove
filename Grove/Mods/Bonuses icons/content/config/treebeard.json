@@ -1,0 +1,9 @@
+{
+	"grove:treebeard" : {
+		"abilities" : {
+			"spellParalyze" : {
+				"icon" : "bonuses/paralysisattack.png"
+			}
+		}
+	}
+}

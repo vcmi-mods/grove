@@ -1,0 +1,9 @@
+{
+	"grove:nightdruid" : {
+		"abilities" : {
+			"petrify" : {
+				"icon" : "bonuses/turntostone0.png"
+			}
+		}
+	}
+}

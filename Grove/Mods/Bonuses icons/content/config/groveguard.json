@@ -1,0 +1,9 @@
+{
+	"grove:groveguard" : {
+		"abilities" : {
+			"spellDispellHelpful" : {
+				"icon" : "bonuses/dispelattack.png"
+			}
+		}
+	}
+}

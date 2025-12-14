@@ -1,0 +1,9 @@
+{
+	"grove:elderdruid" : {
+		"abilities" : {
+			"petrify" : {
+				"icon" : "bonuses/turntostone0.png"
+			}
+		}
+	}
+}

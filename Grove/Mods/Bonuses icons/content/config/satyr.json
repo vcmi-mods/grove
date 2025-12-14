@@ -1,0 +1,12 @@
+{
+	"grove:faun" : {
+		"abilities" : {
+			"hatePixie" : {
+				"icon" : "bonuses/faunhate.png"
+			},
+			"hateSprite" : {
+				"icon" : "bonuses/armoredfaunhate.png"
+			}
+		}
+	}
+}

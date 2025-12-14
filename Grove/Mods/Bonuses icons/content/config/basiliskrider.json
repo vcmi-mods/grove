@@ -1,0 +1,9 @@
+{
+	"grove:basiliskrider" : {
+		"abilities" : {
+			"reduceDefence" : {
+				"icon" : "bonuses/e_rdef_lizardrider.png"
+			}
+		}
+	}
+}

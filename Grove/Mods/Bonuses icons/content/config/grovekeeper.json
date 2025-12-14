@@ -1,0 +1,9 @@
+{
+	"grove:grovekeeper" : {
+		"abilities" : {
+			"dispellHelpful" : {
+				"icon" : "bonuses/dispelattack.png"
+			}
+		}
+	}
+}

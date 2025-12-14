@@ -1,0 +1,10 @@
+{
+	"grove:spiderprincess" : {
+		"abilities" : {
+			"castsDispelHelpful" : {
+				"icon" : "bonuses/dispel0.png",
+				"description" : "{Enchanter}\nCan cast Dispel Helpful Spells every 5 turns."
+			}
+		}
+	}
+}

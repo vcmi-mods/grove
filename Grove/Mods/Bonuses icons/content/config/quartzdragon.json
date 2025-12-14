@@ -1,0 +1,9 @@
+{
+	"grove:quartzdragon" : {
+		"abilities" : {
+			"magicResistance" : {
+				"icon" : "bonuses/e_retail1_quartzdragon.png"
+			}
+		}
+	}
+}

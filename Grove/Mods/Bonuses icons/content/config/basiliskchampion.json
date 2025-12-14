@@ -1,0 +1,9 @@
+{
+	"grove:basiliskchampion" : {
+		"abilities" : {
+			"reduceDefence" : {
+				"icon" : "bonuses/e_rdef_lizardchampion.png"
+			}
+		}
+	}
+}

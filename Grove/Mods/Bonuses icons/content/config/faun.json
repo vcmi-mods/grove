@@ -1,0 +1,15 @@
+{
+	"grove:armedfaun" : {
+		"abilities" : {
+			"hatePixie" : {
+				"icon" : "bonuses/faunhate.png"
+			},
+			"hateSprite" : {
+				"icon" : "bonuses/armoredfaunhate.png"
+			},
+			"spellMirth" : {
+				"icon" : "bonuses/enchantedmirth.png"
+			}
+		}
+	}
+}

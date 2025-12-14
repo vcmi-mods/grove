@@ -1,0 +1,21 @@
+{
+	"grove:nightFalcon" : {
+		"abilities" : {
+			"shooter" : {
+				"type" : "SHOOTER"
+			},
+			"paralize" : {
+				"icon" : "bonuses/paralysisattack.png"
+			},
+			"warmachine" : {
+				"icon" : "bonuses/ballista.png",
+				"description" : "{War Machine}\nA missile weapon that shoots projectiles towards enemy troops."
+			},
+			"dummyIcon" : {
+				"type" : "NONE",
+				"icon" : "bonuses/noretaliation.png",
+				"description" : "{War Machine}\nWar machine is unable to retaliate against attacks."
+			}
+		}
+	}
+}

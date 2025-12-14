@@ -1,0 +1,10 @@
+{
+	"grove:moonslayer" : {
+		"abilities" : {
+			"spellPoison" : {
+				"icon" : "bonuses/poison.png",
+				"description" : "{Cast After Attack}\nHas a 50% chance of shooting poisoned knives."
+			}
+		}
+	}
+}

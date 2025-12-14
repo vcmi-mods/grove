@@ -1,0 +1,9 @@
+{
+	"grove:saphiredragon" : {
+		"abilities" : {
+			"magicResistance" : {
+				"icon" : "bonuses/e_retail1_sapdragon.png"
+			}
+		}
+	}
+}

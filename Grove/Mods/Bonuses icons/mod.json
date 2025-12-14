@@ -1,0 +1,27 @@
+{
+	"name" : "Additional bonuses icons",
+	"description" : "Additional icons for creatures abilities.",
+	"version" : "1.0.0",
+	"author" : "Kurek",
+	"contact" : "",
+	"modType" : "Graphical",
+	"creatures" : [
+		"config/satyr.json",
+		"config/faun.json",
+		"config/moonslayer.json",
+		"config/groveguard.json",
+		"config/grovekeeper.json",
+		"config/nightdruid.json",
+		"config/elderdruid.json",
+		"config/basiliskrider.json",
+		"config/basiliskchampion.json",
+		"config/spiderprincess.json",
+		"config/spiderqueen.json",
+		"config/quartzdragon.json",
+		"config/amethystdragon.json",
+		"config/saphiredragon.json",
+		"config/treebeard.json",
+		"config/NightFalcon.json",
+		"config/stack_exp.json"
+	]
+}

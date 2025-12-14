@@ -1,0 +1,14 @@
+{
+	"grove:spiderqueen" : {
+		"abilities" : {
+			"castsDispelHelpful" : {
+				"icon" : "bonuses/dispel0.png",
+				"description" : "{Enchanter}\nCan cast Dispel Helpful Spells every 3 turns."
+			},
+			"spellPoison" : {
+				"icon" : "bonuses/poison.png",
+				"description" : "{Cast After Attack}\nHas a 50% chance of shooting poisoned arrows."
+			}
+		}
+	}
+}
